@@ -94,7 +94,6 @@ footer .redes-sociales  , footer .copy{
     width: 30%;
 }
 .texto-descripcion{
-    
     display: flex;
     align-items: center;
 }
@@ -102,4 +101,17 @@ footer .redes-sociales  , footer .copy{
     color: var(--colordetextos);
     font-family: var(--font-family);
     padding: 40px;
+}
+
+/*media querys*/
+
+@media screen and (max-width:815px) {
+    .texto-descripcion{
+        display: flex;
+        flex-direction: column;
+    }
+    .texto-descripcion img{
+        width: 40%;
+    }
+    
 }

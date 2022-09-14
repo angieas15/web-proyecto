@@ -10,7 +10,15 @@ header{
     background-image: url(/imagenes/2.jpg);
     background-attachment: fixed;
 }
+@media screen and (max-width:700px){
+    header{
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
 
+    }
+}
 /*variables*/
 
 :root{
@@ -92,11 +100,23 @@ footer .redes-sociales  , footer .copy{
 /*portada*/
 .portada{
     color: white;
+    width: 100%;
     height: 95vh;
     background-size: cover;
     background-image: url(/imagenes/2.jpg);
     background-attachment: fixed;
 }
+@media screen and (max-width:700px){
+    .portada{
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+
+    }
+}
+
+
 .contenedor-textos{
     padding: 0;
     height: 80%;
@@ -113,8 +133,21 @@ footer .redes-sociales  , footer .copy{
 .contenedor-textos p {
     padding: 0 100px;
     font-size: 20px;
-
 }
+/*media querys*/
+@media screen and (max-width:700px){
+    .contenedor-textos h1{
+        font-size: 40px;
+
+    }
+    .contenedor-textos p{
+        text-align: center;
+        font-size: 20px;
+    }
+   
+}
+
+
 
 /*main trabajos*/
 
