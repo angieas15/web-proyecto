@@ -115,7 +115,7 @@ footer .redes-sociales  , footer .copy{
 }
 @media screen and (max-width:700px){
     .portada{
-        height: 80vh;
+        background-image: url(/imagenes/2.jpg);
         background-size: cover;
         background-attachment: fixed;
 
