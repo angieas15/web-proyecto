@@ -73,6 +73,13 @@ header{
     text-decoration: none;
     padding: 32px;
 }
+@media screen and (max-width:700px){
+    .enlaces a{
+        font-size: 10px;
+        padding: 10px;
+
+    }
+}
 .enlaces a:hover{
     color: var(--colorprincipal);
     font-weight: 600;
