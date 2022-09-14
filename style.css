@@ -33,7 +33,7 @@ header{
 
 /*contenedor de la pagina*/
 .contenedor{
-    width: 90%;
+    width: 100%;
     margin: auto;
     overflow: hidden;
     padding: var(---paddingsecciones);
@@ -76,7 +76,7 @@ header{
 @media screen and (max-width:700px){
     .enlaces a{
         font-size: 10px;
-        padding: 10px;
+        padding: 20px;
 
     }
 }
