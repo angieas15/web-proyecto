@@ -33,7 +33,7 @@ header{
 
 /*contenedor de la pagina*/
 .contenedor{
-    width: 100%;
+    width: 90%;
     margin: auto;
     overflow: hidden;
     padding: var(---paddingsecciones);
@@ -112,14 +112,6 @@ footer .redes-sociales  , footer .copy{
     background-size: cover;
     background-image: url(/imagenes/2.jpg);
     background-attachment: fixed;
-}
-@media screen and (max-width:700px){
-    .portada{
-        background-image: url(/imagenes/2.jpg);
-        background-size: cover;
-        background-attachment: fixed;
-
-    }
 }
 
 
