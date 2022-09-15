@@ -5,8 +5,10 @@
     font-family: var(--font-family);
 }
 header{
+    width: 100%;
     height: 2vh;
     background-size: cover;
+    background-position: center;
     background-image: url(/imagenes/2.jpg);
     background-attachment: fixed;
 }
@@ -96,25 +98,15 @@ footer .redes-sociales  , footer .copy{
 }
 
 /*portada*/
+
 .portada{
-    color: white;
-    height: 80vh;
+    background-image: url(/imagenes/2.jpg);
+    width: 100%;
+    height: 95vh;
     background-size: cover;
     background-position: center;
-    background-image: url(/imagenes/2.jpg);
     background-attachment: fixed;
 }
-@media screen and (min-width:200px){
-    .portada{
-        background-size: cover;
-        background-position: center;
-        background-attachment: fixed;
-
-    }
-}
-
-
-
 
 .contenedor-textos{
     padding: 0;
