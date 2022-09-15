@@ -40,8 +40,6 @@ header{
     padding: var(---paddingsecciones);
 }
 
-
-
 /*menu de navegacion*/
 .menu-navegacion{
     color: var(--colordetextos);
@@ -113,6 +111,17 @@ footer .redes-sociales  , footer .copy{
     background-image: url(/imagenes/2.jpg);
     background-attachment: fixed;
 }
+@media screen and (max-width:700px){
+    .portada{
+        background-size: cover;
+        background-attachment: fixed;
+
+
+        
+
+    }
+}
+
 
 
 .contenedor-textos{
