@@ -6,10 +6,8 @@
 }
 header{
     height: 2vh;
-    background-size: cover;
-    background-position: center;
-    background-image: url(/imagenes/2.jpg);
-    background-attachment: fixed;
+    background-color: #DE928B;
+  
 }
 
 /*variables*/
@@ -99,11 +97,9 @@ footer .redes-sociales  , footer .copy{
 /*portada*/
 
 .portada{
-    background-image: url(/imagenes/2.jpg);
+    background-color: #DE928B;
     height: 800px;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+  
 }
 /*media querys*/
 @media screen and (max-width:400px){
