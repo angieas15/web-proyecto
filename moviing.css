@@ -25,6 +25,14 @@ header{
     background-position: center;
     height: 50vh;
 }
+@media screen and (max-width:700px) {
+    
+    header{
+        background-size: 40%;
+
+    }
+  
+}
 
 /*contenedor de la pagina*/
 .contenedor{

@@ -93,12 +93,15 @@ footer .redes-sociales  , footer .copy{
     padding-top: 80px;
 }
 @media screen and (max-width:500px) {
+    
     #tarjetas{
         display: flex;
-        flex-direction: column;
         align-items: center;
+        flex-direction: column;
+        justify-items: center;
+
     }
- 
+  
 }
 
 .tarjeta img{
