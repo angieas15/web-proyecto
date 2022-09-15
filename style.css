@@ -6,7 +6,7 @@
 }
 header{
     height: 2vh;
-    background-image: url(/imagenes/2.jpg);
+    background-image: url(/imagenes/7.jpg);
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
@@ -60,7 +60,7 @@ header{
     display: inline-block;
 }
 .enlaces a{
-    color: var(--colordetextos);
+    color: white;
     font-size: 20px;
     text-decoration: none;
     padding: 32px;
@@ -94,7 +94,7 @@ footer .redes-sociales  , footer .copy{
 
 .portada{
     height: 800px;
-    background-image: url(/imagenes/2.jpg);
+    background-image: url(/imagenes/7.jpg);
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
@@ -121,7 +121,7 @@ footer .redes-sociales  , footer .copy{
 }
 @media screen and (max-width:700px ) {
     .contenedor-textos h1{
-        font-size: 50px;
+        font-size: 40px;
         text-align: center;
     }
     .contenedor-textos p{
