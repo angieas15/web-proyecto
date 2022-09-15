@@ -92,6 +92,17 @@ footer .redes-sociales  , footer .copy{
     font-family: var(--font-family);
     padding-top: 80px;
 }
+@media screen and (max-width:700px) {
+    #tarjetas{
+       display: block;
+       width: 230%;
+       padding-left: 50px;      
+    
+    }
+    
+  
+    
+}
 .tarjeta img{
     width: 100%;
 }
