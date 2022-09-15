@@ -109,7 +109,7 @@ footer .redes-sociales  , footer .copy{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: var(--colorprincipal);
 }
 .contenedor-textos h1{
     padding: 0 90px;
@@ -121,11 +121,11 @@ footer .redes-sociales  , footer .copy{
 }
 @media screen and (max-width:700px ) {
     .contenedor-textos h1{
-        font-size: 30px;
+        font-size: 50px;
         text-align: center;
     }
     .contenedor-textos p{
-        font-size: 15px;
+        font-size: 16px;
         text-align: center;
 
     }
@@ -163,8 +163,27 @@ footer .redes-sociales  , footer .copy{
     padding: 20px;
     display: flex;
     
-    
 }
+@media screen and (max-width:700px) {
+    .titulo-seccion{
+        font-size: 40px;
+        padding-top: 50px;
+    }
+    .trabajos{
+    padding-top:80px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     }
+     .trabajo a{
+        padding: 20px;
+        margin: 10px;
+        
+       
+     }
+     
+ }
 .trabajo a:hover{
     background-color: var(--colordebotones) ;
     color: white;
