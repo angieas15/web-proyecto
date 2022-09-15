@@ -106,19 +106,18 @@ footer .redes-sociales  , footer .copy{
 /*portada*/
 .portada{
     color: white;
-    height: 95vh;
+    height: 1200px;
     background-size: cover;
+    background-position: center;
     background-image: url(/imagenes/2.jpg);
     background-attachment: fixed;
 }
 @media screen and (max-width:560px){
     .portada{
+        width: 1200px;
+        height: 1000px;
         background-size: cover;
         background-attachment: fixed;
-
-
-        
-
     }
 }
 
