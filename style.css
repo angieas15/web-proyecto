@@ -121,7 +121,8 @@ footer .redes-sociales  , footer .copy{
 }
 @media screen and (max-width:700px ) {
     .contenedor-textos h1{
-        font-size: 35px;
+        font-size: 30px;
+        font-weight: 600;
         text-align: center;
     }
     .contenedor-textos p{
