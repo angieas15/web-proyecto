@@ -5,7 +5,7 @@
     font-family: var(--font-family);
 }
 header{
-    height: 550px;
+    height: 2vh;
     background-size: cover;
     background-image: url(/imagenes/2.jpg);
     background-attachment: fixed;
@@ -98,13 +98,20 @@ footer .redes-sociales  , footer .copy{
 /*portada*/
 .portada{
     color: white;
-    height: 850px;
+    height: 80vh;
     background-size: cover;
     background-position: center;
     background-image: url(/imagenes/2.jpg);
     background-attachment: fixed;
 }
+@media screen and (min-width:300px){
+    .portada{
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
 
+    }
+}
 
 
 
