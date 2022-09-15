@@ -34,6 +34,7 @@ header{
 /*contenedor de la pagina*/
 .contenedor{
     width: 90%;
+    max-width: 1200px;
     margin: auto;
     overflow: hidden;
     padding: var(---paddingsecciones);
@@ -107,7 +108,6 @@ footer .redes-sociales  , footer .copy{
 /*portada*/
 .portada{
     color: white;
-    width: 100vh;
     height: 95vh;
     background-size: cover;
     background-image: url(/imagenes/2.jpg);
