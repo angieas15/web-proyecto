@@ -6,7 +6,10 @@
 }
 header{
     height: 2vh;
-    background-color: #DE928B;
+    background-image: url(/imagenes/2.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
   
 }
 
@@ -25,7 +28,6 @@ header{
 /*contenedor de la pagina*/
 .contenedor{
     width: 90%;
-    max-width: 1200px;
     margin: auto;
     overflow: hidden;
     padding: var(---paddingsecciones);
@@ -91,8 +93,11 @@ footer .redes-sociales  , footer .copy{
 /*portada*/
 
 .portada{
-    background-color: #DE928B;
     height: 800px;
+    background-image: url(/imagenes/2.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
   
 }
 
