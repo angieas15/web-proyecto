@@ -96,10 +96,8 @@ footer .redes-sociales  , footer .copy{
     
     #tarjetas{
         display: flex;
-        align-items: center;
         flex-direction: column;
-        justify-items: center;
-
+        align-items: center;
     }
   
 }
@@ -115,6 +113,15 @@ footer .redes-sociales  , footer .copy{
     cursor: default;
     transition: all 400ms ease;
     text-align: center;
+}
+@media screen and (max-width:500px) {
+    .tarjeta{
+        width: 60%;
+        margin: 10px;
+
+
+    }
+    
 }
 .tarjeta:hover{
     border: 2px solid black;
