@@ -71,6 +71,12 @@ header{
     font-weight: 600;
 
 }
+@media screen and (max-width:400px ) {
+    .menu-navegacion{
+        display: flex;
+        justify-content: space-between;
+    }
+}
 
 /*footer*/
 footer .redes-sociales  , footer .copy{
