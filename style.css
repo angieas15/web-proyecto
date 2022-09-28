@@ -71,7 +71,7 @@ header{
     font-weight: 600;
 
 }
-@media screen and (max-width:400px ) {
+@media screen and (max-width:390px ) {
     .menu-navegacion{
         display: flex;
         justify-content: space-between;
