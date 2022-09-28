@@ -118,11 +118,9 @@ footer .redes-sociales  , footer .copy{
     .tarjeta{
         width: 60%;
         margin: 10px;
-
-
-    }
-    
+    }  
 }
+
 .tarjeta:hover{
     border: 2px solid black;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);

@@ -100,6 +100,11 @@ footer .redes-sociales  , footer .copy{
     background-size: cover;
 }
 
+@media screen and (max-width:480px ) {
+    .portada{
+        overflow: hidden;
+    }
+}
 
 
 .contenedor-textos{
