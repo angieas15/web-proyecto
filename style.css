@@ -71,14 +71,12 @@ header{
     font-weight: 600;
 
 }
-@media screen and (max-width:395px ) {
+@media screen and (max-width:390px ) {
     .menu-navegacion{
         display: flex;
         justify-content: space-between;
     }
 }
-
-
 
 
 /*footer*/
